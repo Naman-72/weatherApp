@@ -76,6 +76,6 @@ app.get("*",(req,res)=>{
 
 
 // 4) app.listen() 
-app.listen(port,()=>{
+app.listen(process.env.PORT||port,()=>{
     console.log(`Running At http://localhost:${port}`);
 });
