@@ -1,0 +1,68 @@
+H3{
+color: rgb(0, 255, 38);
+}
+.navbar{
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+}
+.navbar li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar a:hover{
+color: rgb(255, 0, 166);
+}
+.fa-snowflake{
+    transition: all linear;
+    animation: 2s infinite linear rot;
+    color: yellow;
+}
+@keyframes rot{
+    0%{
+        transform: rotate(odeg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.btn-dark:hover{
+    color: cyan;
+}
+h4:hover{
+    color: black;
+}
+h1:hover{
+    color: black;
+}
+p{
+    color: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    line-height: 2rem;
+    margin-top: auto;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    margin: 0;
+}
+html{
+    font-size: 100%;
+}
+.main_menu{
+    color: black;
+}
+:root{
+    --main-bg: black;
+    --main-color:blue;
+}
+span{
+    color: blue;
+}

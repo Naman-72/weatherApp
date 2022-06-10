@@ -1,0 +1,49 @@
+
+  {{>top}}
+    {{>navbar}}
+    <!-- MAIN HEADER -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-10 mx-auto">
+                <div class="row">
+                    <!-- left side -->
+                    <div class="col-md-6 col-12 main_header_left my-auto text-center">
+                        <H3>WELCOME TO THE WEATHER APP</H3>
+                        <H2>GET THE LATEST <span> WEATHER </span> OF YOUR CITY</H2>
+                        <button class="btn btn-dark"><a href="/weather" style="color:deeppink;">Check Now</a></button>
+                    </div>
+                    <!-- right side -->
+                    <div class="col-md-6 col-12 main_header_right">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="images/pexels(2).jpg"  width="100px" height="100px" class="h-100 w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/pexels(1).jpg"  width="100px" height="100px"  class="h-100 w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="images/pexels(5).jpg"  width="100px" height="100px"  class="h-100 w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
